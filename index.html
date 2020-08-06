@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>FrontendFunn - Simple Color Palette</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="color-inputs">
+      <div class="color-input-item">
+        <input type="color" id="color1" />
+      </div>
+      <div class="color-input-item">
+        <input type="color" id="color2" />
+      </div>
+      <div class="palette-count">
+        <select id="palette-count-input">
+          <option value="6" selected>6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+      </div>
+    </div>
+    <div class="palette" id="palette"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.1.0/chroma.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
