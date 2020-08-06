@@ -1,6 +1,6 @@
 # 🙈 🙉 🙊 Simple Color Palette using [Chromajs](https://vis4.net/chromajs/)
 
-## 😃 Click here for the 👉 [💥LIVE DEMO]()
+## 😃 Click here for the 👉 [💥LIVE DEMO](https://frontendfunn.github.io/color-palette/)
 
 ---
 
